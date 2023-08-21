@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio for Web</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <section id="main_image">
+      <div class="title_wrap">
+        <h1>Portfolio</h1>
+        <div class="ball_container">
+          <div class="ball"></div>
+          <div class="ball_shadow"></div>
+          <div>
+            <input type="checkbox" id ="toggle-slider" onclick="goToScroll('profile')">
+            <label for="toggle-slider">
+              <span>OFF</span>
+              <span>ON</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="profile">
+      <div id="inner">
+        <div></div>
+        <div class="profile_image">
+          <img src="./img/증명사진.png" alt="사진" />
+          <p><span>Web<br />Publisher</span></p>
+        </div>
+        <div class="text_wrap">
+          <div>
+            <h3>• Profile</h3>
+            <div class="profile_text">
+              <span>이름: 정다은 </span>
+              <span>나이: 1996년생(27살) </span>
+              <span>주소: 충청남도 당진시 합덕읍 </span>
+              <span>연락처: 010.2496.8956 </span>
+              <span>e-mail: ekdms2956@naver.com </span>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>• Education</h3>
+              <span>2023.03 ~ 08 &nbsp; 대전세잔IT직업전문학교</span>
+            </div>
+            <div>
+              <h3>• Lisence</h3>
+              <span>2023 &nbsp; 웹디자인기능사 필기합격</span>
+            </div>
+          </div>
+          <div class="skills">
+            <h3>• Skills</h3>
+            <div class="skills_wrap">
+              <img src="./img/vscode.png" alt="vscode 이미지" />
+              <img src="./img/html-5.png" alt="html 이미지" />
+              <img src="./img/css.png" alt="css 이미지" />
+              <img src="./img/포토샵.png" alt="photoshop 이미지" />
+              <img src="./img/일러스트.png" alt=" Illustrator 이미지" />
+              <img src="./img/Adobe_XD_CC_icon.svg.png" alt="XD 이미지" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="website_momos_coffee">
+      <div id="inner">
+        <div class="website1_contents">
+          <div class="text_left">
+            <span>사이트명: &nbsp; momos coffee</span>
+            <span>제작기간: &nbsp; 3주</span>
+            <span>제작물: &nbsp; 반응형 홈페이지</span>
+            <span>사용툴: &nbsp; Photoshop, Illustrator, Visual Studio Code</span>
+          </div>
+          <div><img src="./img/모니터.png"></div>
+          <div class="text_right">
+            <p>
+              컨셉설명:<br />
+              기존 사이트에서 불편했던 점을 개선하기 위해 제작,
+              기존 사이트에서 레이아웃의 간결함,
+              사진(제품)위주의 레이아웃을 추구한다고 생각해
+              참고하여 제작함. 
+            </p>
+          </div>
+        </div>
+        <div class="button_wrap">
+          <div class="website_design">
+            <a href="javascript:void(0);">리뉴얼 기획서</a>
+          </div>
+          <div class="website_design_goto">
+            <a href="#">사이트 바로가기</a>
+          </div>
+        </div>
+      </div>
+      <div class="popup_wrap">
+        <div class="momos_renewal_popup1">
+          <div class="popup_image">
+            <img src="./img/momos_renewal_1_wireframe_final.png" alt="momos_renewal_1_wireframe" />
+          </div>
+          <div class="popup_text">
+            <span>momos coffee renewal - wireframe</span>
+            <button>X</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="another_website">
+      <div id="inner">
+        <div class="website2_contents">
+          <div class="text_left">
+            <span>사이트명: &nbsp; another website</span>
+            <span>제작기간: &nbsp; 3주</span>
+            <span>제작물: &nbsp; 반응형 홈페이지</span>
+            <span>사용툴: &nbsp; Photoshop, Illustrator, Visual Studio Code</span>
+          </div>
+          <div><img src="./img/모니터.png"></div>
+          <div class="text_right">
+            <p>
+              컨셉설명:<br />
+              기존 사이트에서 불편했던 점을 개선하기 위해 제작,
+              기존 사이트에서 레이아웃의 간결함,
+              사진(제품)위주의 레이아웃을 추구한다고 생각해
+              참고하여 제작함. 
+            </p>
+          </div>
+        </div>
+        <div class="button_wrap">
+          <div class="website_design">
+            <a href="javascript:void(0)">리뉴얼 기획서</a>
+          </div>
+          <div class="website_design_goto">
+            <a href="#">사이트 바로가기</a>
+          </div>
+        </div>
+      </div>
+      <div class="popup_wrap">
+        <div class="another_renewal_popup1">
+          <div class="popup_image">
+            <img src="./img/momos_renewal_1_wireframe_final.png" alt="momos_renewal_1_wireframe" />
+          </div>
+          <div class="popup_text">
+            <span>another renewal - wireframe</span>
+            <button>X</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="graphic_design">
+      <div class="modal_wrap">
+        <ul>
+          <li>
+            <a href="javascript:void(0)" data-title="Banner Design"></a>
+            <div class="banner_wrap">
+              <div class="img_wrap">
+                <img src="./img/쿠팡배너1.jpg" alt="쿠팡배너" />
+                <img src="./img/쿠팡배너3.jpg" alt="쿠팡배너" />
+                <img src="./img/쿠팡배너4.jpg" alt="쿠팡배너" />
+                <img src="./img/쿠팡배너6.jpg" alt="쿠팡배너" />
+              </div>
+              <div class="img_text">
+                <span>Coupang Banner Design</span>
+                <button>X</button>
+              </div>
+            </div>
+          </li>
+          <li><a href="javascript:void(0)" data-title="Banner Design"></a></li>
+          <li><a href="javascript:void(0)" data-title="Detailpage Design"></a></li>
+          <li><a href="javascript:void(0)" data-title="Cardnews Design"></a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact">
+      <div id="inner">
+        <h2>Web Publisher</h2>
+        <p>정다은</p>
+        <p>ekdms2956@naver.com</p>
+        <p>"하고싶은 말"</p>        
+        <br />
+        <br />
+        <p>
+          본 사이트는 상업적 목적이 아닌 개인포트폴리오 사이트로 제작되었습니다.<br />
+          일부 이미지 및 폰트 등은 출처가 따로 있음을 알려드립니다.
+        </p>
+        <p>해당 사이트는 1920*1080 해상도에 최적화되었습니다.</p>
+      </div>
+    </section>
+    <aside>
+      <div class="menu">
+        <ul>
+          <li class="portfolio_top" onclick="goToScroll('main_image')"><a href="javascript:void(0);">Top</a></li>
+          <li><a href="javascript:void(0);">Website</a>
+            <div class="contents" onclick="goToScroll('website_momos_coffee')"><a href="javascript:void(0);">momos coffee</a></div>
+            <div class="contents" onclick="goToScroll('another_website')"><a href="javascript:void(0);">another Website</a></div>
+          </li>
+          <li class="graphic_d" onclick="goToScroll('graphic_design')"><a href="javascript:void(0);">Graphic Design</a></li>
+          <li class="footer" onclick="goToScroll('contact')"><a href="javascript:void(0);">Contact</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
